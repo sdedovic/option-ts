@@ -5,7 +5,7 @@ Yet another port of the Scala Option type to TypeScript.
 ![npm (tag)](https://img.shields.io/npm/v/option-ts/latest)
 
 ```bash
-npm i --save option-ts
+npm i --save option-monad-ts
 ```
 
 ## Usage
