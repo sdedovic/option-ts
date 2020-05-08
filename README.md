@@ -12,7 +12,7 @@ npm i --save option-monad-ts
 ### Basic Example
 
 ```typescript
-import { Option, Some, None } from 'option-ts';
+import { Option, Some, None } from 'option-monad-ts';
 
 // Create Some 
 let n = new Some(3);
