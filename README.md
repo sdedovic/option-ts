@@ -2,7 +2,7 @@
 Yet another port of the Scala Option type to TypeScript.
 
 ![](https://github.com/sdedovic/option-ts/workflows/Node.js%20Package/badge.svg)
-![npm (tag)](https://img.shields.io/npm/v/option-ts/latest)
+![npm (tag)](https://img.shields.io/npm/v/option-monad-ts/latest)
 
 ```bash
 npm i --save option-monad-ts
