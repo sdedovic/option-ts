@@ -1,0 +1,51 @@
+{
+  "name": "option-ts",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc",
+    "clean": "rm -rf dist",
+    "build": "rm -rf dist && tsc",
+    "test": "jest --passWithNoTests",
+    "test:watch": "jest --passWithNoTests --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^9.6.52",
+    "jest": "^25.3.0",
+    "ts-jest": "^25.3.1",
+    "ts-loader": "^4.5.0",
+    "ts-node": "^4.1.0",
+    "typescript": "^3.8.3"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "json",
+      "node"
+    ],
+    "coverageReporters": [
+      "html"
+    ]
+  },
+  "keywords": [
+    "option",
+    "monad",
+    "typescript",
+    "ts",
+    "functional",
+    "maybe",
+    "utility"
+  ]
+}
