@@ -1,6 +1,17 @@
 {
   "name": "option-monad-ts",
   "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdedovic/option-ts.git"
+  },
+  "author": "Stevan Dedovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sdedovic/option-ts/issues"
+  },
+  "homepage": "https://github.com/sdedovic/option-ts#readme",
+  "description": "Yet another port of the Scala Option type to TypeScript.",
   "main": "dist/index.js",
   "files": [
     "dist"
